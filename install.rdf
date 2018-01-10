@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>{26F519FA-40D1-11E4-84EB-C6911D5D46B0}</em:id>
+	<em:version>0.1</em:version>
+	<em:type>2</em:type>
+	<em:targetApplication>
+		<Description>
+			<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id> <!--Firefox-->
+			<em:minVersion>32.0.0</em:minVersion>
+			<em:maxVersion>32.0.*</em:maxVersion>
+		</Description>
+	</em:targetApplication>
+	<em:name>Feed Project</em:name>
+	<em:bootstrap>true</em:bootstrap>
+  </Description>
+</RDF>

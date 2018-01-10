@@ -1,0 +1,147 @@
+
+a:link {text-decoration:none;color:#100;}
+a:visited {text-decoration:none;color:#944;}
+a:hover {text-decoration:underline;} 
+a:active {text-decoration:underline;}
+
+html
+{
+	height: 100%;
+}
+
+body
+{
+	color: #555;
+	background-color: #f9f9f9;
+	font-family:Segoe UI, Tahoma, sans-serif;
+	font-size:10pt;
+	/*need better solution*/
+	height: 95%;
+	overflow:hidden;
+	margin: 0px;
+	padding: 0px;
+}
+
+#header
+{
+	background-color:#eee;
+	width: 1575px;
+	margin:auto;
+	-webkit-user-select: none;
+	position: relative;
+}
+
+#pageTitle
+{
+	font-weight:bold;
+	font-size:30px;
+}
+
+#dashboard
+{
+	background-color: #eee;
+	height: 98%;
+	width: 1575px;
+	margin:auto;
+	padding: 5px;
+}
+#dashboard div
+{
+	background-color: #f9f9f9;
+	padding: 5px;
+}
+#RSS-list
+{
+	position: relative;
+	float:left;
+	width: 159px;
+	height:98.6%;
+	-webkit-user-select: none;
+}
+#RSS-list td
+{
+	position: relative;
+}
+#RSS-table
+{
+	width: 100%;
+}
+#RSS-table tr
+{
+	background-color:#eee;
+	width: 100%;
+	cursor: pointer;
+}
+.newTag
+{
+	float:right;
+	color:red;
+	cursor: pointer;
+	-webkit-user-select: none;
+}
+.notification, .hiddenNotification
+{
+    position: absolute;
+    right: -3px;
+    bottom: -3px;
+	padding: 0px;
+	padding-right: 1px;
+	padding-left: 1px;
+    border-radius: 2px;
+	font-size: 10px;
+	color: white;
+	font-weight: bold;
+	z-index: 10;
+}
+.notification
+{
+    background: linear-gradient(#C80016, #87000E);
+}
+.hiddenNotification
+{
+	background: linear-gradient(#00C816, #00870E);
+	opacity: .50;
+}
+.date
+{
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	opacity: .8;
+}
+
+#RSS-display
+{
+	float:right;
+	/*need better solution*/
+	width: 1390px;			
+	height: 98.6%;
+	overflow: auto;
+}
+#RSS-display td,th
+{
+	border-bottom:1pt solid black;
+	position: relative;
+}
+
+#RSS-display td,tr,table
+{
+	width: 100%;
+	/*need better solution*/
+	max-width: 1370px;
+	overflow: hidden;
+}
+#markAll
+{
+	color: red;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	font-weight: normal;
+	cursor: pointer;
+	-webkit-user-select: none;
+}
+#PAGETITLE
+{
+	cursor: default;
+}
